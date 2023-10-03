@@ -37,3 +37,4 @@
             update() {
                 this.x += Math.cos(this.angle) * this.speed;
                 this.y += Math.sin(this.angle) * this.speed;
+                if (this.radius > 0.2) this.radius -= 0.05;
